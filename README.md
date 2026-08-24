@@ -22,6 +22,7 @@ The goal is to reduce repetitive instruction-giving while preserving quality, co
 - `evals/` — evaluation prompts, rubrics, and harnesses
 - `templates/` — reusable workflow/task templates
 - `docs/` — architecture notes, operating principles, and onboarding docs
+- `.github/` — repo-level Copilot instructions for VS Code / GitHub Copilot
 
 ## Core philosophy
 
@@ -31,21 +32,42 @@ The goal is to reduce repetitive instruction-giving while preserving quality, co
 4. Treat evaluations as part of the workflow, not a separate afterthought.
 5. Keep every skill crisp enough to be imported into an agent or client quickly.
 
-## Suggested workflow
+## How to use this repo
 
-This repo should be used as the default "AI brain" for personal work:
+Use this repo as your default personal AI toolkit:
 
-- start with a reusable skill or template
+- start with the nearest skill or template
 - add only task-specific context
-- evaluate outputs against a rubric before trusting them
-- refine the instruction pack when patterns emerge
+- keep output in a repeatable format
+- evaluate against a rubric when quality matters
+- refine the skill when the pattern becomes reliable
 
-## Next steps
+## Included starter assets
 
-- define your first skill packs
-- add one or two MCP patterns that match your real work
-- set up a small evaluation workflow for outputs you trust repeatedly
-- keep a living index of what is ready for production use
+- Core operating instructions
+- PM + research workflow
+- Engineering spec authoring skill
+- Customer learnings to leadership skill
+- Decision memo template
+- Research brief template
+- Leadership feature review HTML template
+- AI quality rubric
+
+## Repo index
+
+### Skills
+- `skills/core-operating-instructions.md`
+- `skills/pm-research-workflow.md`
+- `skills/engineering-spec-author.md`
+- `skills/customer-learnings-to-leadership.md`
+
+### Templates
+- `templates/decision-memo.md`
+- `templates/research-brief.md`
+- `templates/leadership-feature-review.html`
+
+### Evaluation
+- `evals/ai-quality-rubric.md`
 
 ## License
 
