@@ -30,5 +30,11 @@ This repository is designed to serve as your reusable AI operating system for da
 - use `skills/customer-learnings-to-leadership.md`
 - use `templates/leadership-feature-review.html`
 
+### Reuse-ready golden workflows
+- use `skills/golden-workflows.md`
+
 ### Quality check
 - use `evals/ai-quality-rubric.md`
+
+### MCP pattern library
+- review `mcp/README.md` and add patterns there when they become part of your regular workflow

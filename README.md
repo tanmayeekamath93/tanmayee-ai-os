@@ -60,6 +60,7 @@ Use this repo as your default personal AI toolkit:
 - `skills/pm-research-workflow.md`
 - `skills/engineering-spec-author.md`
 - `skills/customer-learnings-to-leadership.md`
+- `skills/golden-workflows.md`
 
 ### Templates
 - `templates/decision-memo.md`
@@ -68,6 +69,9 @@ Use this repo as your default personal AI toolkit:
 
 ### Evaluation
 - `evals/ai-quality-rubric.md`
+
+### MCP
+- `mcp/README.md`
 
 ## License
 
