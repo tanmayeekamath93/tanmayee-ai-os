@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feature Release Review</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 32px;
+      color: #1f2937;
+      background: #f8fafc;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    h1, h2, h3 {
+      color: #111827;
+    }
+    .header {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .card {
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .section {
+      margin-top: 28px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f3f4f6;
+    }
+    .badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+    }
+    .kpi {
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      border-radius: 10px;
+      padding: 18px;
+    }
+    .kpi strong {
+      display: block;
+      font-size: 28px;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Customer Learning and Feature Usage Review</h1>
+      <div class="badge">Leadership Summary</div>
+      <div class="badge">Feature Release Update</div>
+    </div>
+
+    <div class="meta">
+      <div class="card">
+        <strong>Feature</strong><br />
+        [Feature Name]
+      </div>
+      <div class="card">
+        <strong>Release Window</strong><br />
+        [Date range]
+      </div>
+      <div class="card">
+        <strong>Audience</strong><br />
+        Leadership / Product / GTM
+      </div>
+      <div class="card">
+        <strong>Prepared by</strong><br />
+        [Owner / Team]
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Executive Summary</h2>
+      <p>
+        [Brief summary of what shipped, who it is for, and the main customer learning. Keep this to 3-5 sentences focused on business impact and what leadership should know.]
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Key Takeaways</h2>
+      <div class="kpi-grid">
+        <div class="kpi">
+          <span>Adoption</span>
+          <strong>[X%]</strong>
+        </div>
+        <div class="kpi">
+          <span>Engagement</span>
+          <strong>[Y%]</strong>
+        </div>
+        <div class="kpi">
+          <span>Retention signal</span>
+          <strong>[Z%]</strong>
+        </div>
+        <div class="kpi">
+          <span>Top customer signal</span>
+          <strong>[Text]</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Customer Learning Summary</h2>
+      <ul>
+        <li><strong>What customers are doing:</strong> [Short summary of observed behavior or usage patterns]</li>
+        <li><strong>What customers value:</strong> [Most appreciated benefit or capability]</li>
+        <li><strong>Where friction remains:</strong> [Major barriers or confusion points]</li>
+        <li><strong>What we learned:</strong> [Key insight that changes product direction or communication]</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Feature Usage Snapshot</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Definition</th>
+            <th>Result</th>
+            <th>Interpretation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Activation rate</td>
+            <td>Share of eligible users who complete the core workflow</td>
+            <td>[Value]</td>
+            <td>[What it means]</td>
+          </tr>
+          <tr>
+            <td>Adoption rate</td>
+            <td>Share of target users who used the feature</td>
+            <td>[Value]</td>
+            <td>[What it means]</td>
+          </tr>
+          <tr>
+            <td>Frequency of use</td>
+            <td>Average sessions or actions per active user</td>
+            <td>[Value]</td>
+            <td>[What it means]</td>
+          </tr>
+          <tr>
+            <td>Drop-off point</td>
+            <td>Where users stop in the workflow</td>
+            <td>[Stage or step]</td>
+            <td>[Why this matters]</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Customer Quotes or Signals</h2>
+      <ul>
+        <li>"[Customer quote or paraphrased feedback]"</li>
+        <li>"[Another customer signal or observed pattern]"</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Implications for Leadership</h2>
+      <ul>
+        <li><strong>Positive signal:</strong> [What is going well]</li>
+        <li><strong>Watch item:</strong> [What needs attention]</li>
+        <li><strong>Recommendation:</strong> [What the team should do next]</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Recommended Next Actions</h2>
+      <ol>
+        <li>[Action 1]</li>
+        <li>[Action 2]</li>
+        <li>[Action 3]</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
